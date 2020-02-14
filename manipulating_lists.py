@@ -1,0 +1,10 @@
+animals = ["dog", "cat"]
+print(animals)
+animals.append("cow")
+print(animals)
+animals.remove("cat")
+print(animals)
+animals.reverse()
+print(animals)
+animals.count("cow")
+print(animals)
