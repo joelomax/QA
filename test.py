@@ -1,18 +1,24 @@
+
+def maskify(cc):
+    firstnos = cc [0:-4]
+    lastnos = cc [-4:]
+    numofchar = 0
+    for item in firstnos:
+        numofchar+=1
+    numofchar
+    while numofchar > 0:
+        newnum = 0
+        newnum += "#"
+        numofchar-1
+    return newnum + lastnos
+
+print(maskify("764363763774898"))
 '''
+def maskify(cc):
+    firstnos = cc [0:-4]
+    firstnos.replace()
+    newnum = firstnos + cc [-4:]
+    return newnum
 
-def pos_neg(a, b, negative): 
-    if a < 0 or b < 0:
-        if a < 0 and b < 0:
-            if negative == True:
-                return True
-        else:
-            return True
-    else:
-        return False
-
-print(pos_neg(1, 1, False))
-
+print(maskify("4387487287"))
 '''
-
-x = -1 * 1
-print(x)
