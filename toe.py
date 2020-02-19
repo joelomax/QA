@@ -6,8 +6,8 @@ flag = 0
 for i in range (2000, 3200):
     if i % 7 == 0 and i % 5 != 0:
         if flag ==0:
-            print(i, end="")
+            print(i, end= "")
             flag = 1
         else:
             print (",", end = "")
-            print(i, end ="")
+            print(i, end = "")
