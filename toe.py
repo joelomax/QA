@@ -10,4 +10,4 @@ for i in range (2000, 3200):
             flag = 1
         else:
             print (",", end = "")
-            print(i, end ="")
+            print(i, end = "")
