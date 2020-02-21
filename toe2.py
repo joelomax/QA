@@ -18,7 +18,8 @@ def getBert(string):
     else:
         x = string1.find("bert")
         y = string1.find("bert", x+4)
-        return string1[x+4:y]
+        newstring = string1[x+4:y]
+        return newstring[0:0:-1]
 
 print(getBert("xxxbErtClivebertxxx"))
 
