@@ -22,4 +22,4 @@ def endsPy(inputStr):
 	else:
 		return False
 		
-#print(endsPy("hurrayforpY"))
+print(endsPy("hurrayforpY"))
