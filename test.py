@@ -1,4 +1,4 @@
-
+"""
 def maskify(cc):
     firstnos = cc [0:-4]
     lastnos = cc [-4:]
@@ -13,7 +13,7 @@ def maskify(cc):
     return newnum + lastnos
 
 print(maskify("764363763774898"))
-'''
+
 def maskify(cc):
     firstnos = cc [0:-4]
     firstnos.replace()
@@ -21,4 +21,5 @@ def maskify(cc):
     return newnum
 
 print(maskify("4387487287"))
-'''
+"""
+print(ord("c"))
