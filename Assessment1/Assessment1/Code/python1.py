@@ -35,14 +35,9 @@
 	# What was the name of the function we have seen to check the length of a container?  Use your CLI to access the Python documentation and get help(len).
 
 def longString(input1, input2):
-	lenstr1 = len(input1)
-	lenstr2 = len(input2)
-	if lenstr1 == lenstr2:
-		return input1+" "+input2
-	elif lenstr1 > lenstr2:
-		return input1
-	elif lenstr2 > lenstr1:
-		return input2
+	return ""
+
+
 
 
 	# <QUESTION 2>
@@ -68,12 +63,7 @@ def longString(input1, input2):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(str).
 
 def getBert(input):
-	pass
-'''
-	c = input.count("bert")
-	if c 
 	return ""
-'''
 
 
 
@@ -98,14 +88,8 @@ def getBert(input):
 	# No Hints for this question
 
 def fizzBuzz(arg1):
-	if arg1 % 3 == 0 and arg1 % 5 == 0:
-		return "fizzbuzz"
-	elif arg1 % 3 == 0:
-		return "fizz"
-	elif arg1 % 5 == 0:
-		return "buzz"
-	else:
-		return "null"
+	return "null"
+
 
 	# <QUESTION 4>
 
@@ -128,17 +112,9 @@ def fizzBuzz(arg1):
 	# <HINT>
 
 	# help(int) for working with numbers and help(str) for working with Strings.
-'''
+
 def largest(arg1):
-	x = arg1.split
-	newlist = []
-	for i in x:
-		i = int(i)
-		newlist.append(i)
-	for item in newlist:
-		summeditems = item+=item
-	return summed items
-	'''
+	return 0
 
 	# <QUESTION 5>
 
@@ -187,26 +163,7 @@ def csvScan(input):
 
 
 def iBeforeE(input):
-	z = input.count("ei")
-	x = input.count("ie")
-	if z > 0:
-		a = input.index("ei")
-		if input[a-1] == "c":
-			return True
-	elif x > 0:
-		y = input.index("ie")
-		y=y-3
-		if input[y-1] == "c":
-			return False
-		else:
-			return True
-	else:
-		return False
-
-
-
-print(iBeforeE("field"))
-
+    return False
 
 	# <QUESTION 7>
 
@@ -223,15 +180,7 @@ print(iBeforeE("field"))
 	# How do we ignore case in a String? help(str) may offer some insight.
 
 def getVowel(input):
-	y = input.lower()
-	numA = y.count("a") 
-	numE = y.count("e")
-	numI = y.count("i")
-	numO = y.count("o")
-	numU = y.count("u")
-	ans = numA + numE + numI + numO + numU
-	return ans
-
+    return 0
 
 	# <QUESTION 8>
 
@@ -251,8 +200,6 @@ def getVowel(input):
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def factorial(input):
-	
-
 	return 1
 
 	# <QUESTION 9>
@@ -274,30 +221,7 @@ def factorial(input):
 	# Take a look at the documentation for Strings, List and range.
 
 def returnPosition(inputString, char):
-	newlist = inputString.split(" ")
-	newlist2 ="".join(newlist)
-	count = 0
-	for i in inputString:
-		count +=1
-		if i == char:
-			break
-		else:
-			continue
-		return -1
-	try:
-		return count
-	except:
-		return -1		
-	
-	'''
-	newlist = inputString.split(" ")
-	#newlist2 ="".join(newlist)
-	pos=newlist.index(char)
-	return pos
-	#except:
-		#return -1
-'''
-#print(returnPosition("aaa a as", "s"))
+	return -1
 
 	# <QUESTION 10>
 
@@ -315,6 +239,6 @@ def returnPosition(inputString, char):
 	# <HINT>
 
 	# How do we find the length of a container, take a look at help(len), you will also need to look at help(str) for String manipulation.
-	
+ 
 def compares(string, int, char):
 	return False

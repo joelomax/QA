@@ -1,9 +1,8 @@
-def missing_char(str, n):
-    l = []
-    for i in str:
-        l.append(i)
-    l.pop(n)
-    x = "".join(l)
-
-    return x
-print(missing_char("hello my name", 0))
+def array123(nums):
+  a = "".join(nums)
+  if a.count("abc") > 0:
+    return True
+  else:
+    return False
+  
+print(array123([1,2,0,4,3,9]))
