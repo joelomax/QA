@@ -41,7 +41,7 @@ def one(input):
     
     # The function should return the boolean False if not.
 
-	# <EXAMPLES>
+	# <EXAMPLES>n
 
     # two(3) → True
     # two(8) → False
@@ -51,14 +51,16 @@ def one(input):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(input):
-    if input == 3 or input == 1:
-        return True
-    else:
-        for i in range(2, input-1):
-            if input % i == 0:
-                return False
-            else:
-                return True
+	if input == None:
+		return False
+	elif input == 3 or input == 1:
+        	return True
+	else:
+		for i in range(2, input-1):
+			if input % i == 0:
+				return False
+			else:
+				return True
 	# <QUESTION 3>
 
     # Write a function which takes an integer input, a, and returns the sum a+aa+aaa+aaaa.
@@ -73,8 +75,8 @@ def two(input):
 	# <HINT>
 	# What happens if you multiply a string by a number?
 def three(a):
-	s = str(a)
-	return 1
+	a = a+(a*10+a)+(a*100+(a*10+a))+(a*1000+(a*100) + (a*10+a))
+	return a
 
 	# <QUESTION 4>
 
@@ -104,7 +106,6 @@ def three(a):
 
 def four(input1, input2):
 	
-
 	# <QUESTION 5>
 
 	# Write a function to randomly generate a list with 5 even numbers between 100 and 200 inclusive.
@@ -118,17 +119,17 @@ def four(input1, input2):
 	# <HINT>
 	# There is a module which can be used to generate random numbers, this module is called random.
 	# The random module contains a function called randint.
-	from random import randint
+from random import randint
 def five():
 	rl = []
 	c = 0
 	while c < 5:
-		r = random.randint(100,200)
+		r = randint(100,200)
 		if r % 2 == 0:
 			rl.append(r)
 			c+=1
 		else:
-			r=random.randint(100,200)
+			r=randint(100,200)
 	return rl
 
 	# <QUESTION 6>
@@ -194,7 +195,7 @@ def seven(a, b, c):
     # Use the cli to access the documentation help(str.replace)
 
 def eight(input,  a):
-	
+	ha = a / 2
 	return ""
 
 	# <QUESTION 9>

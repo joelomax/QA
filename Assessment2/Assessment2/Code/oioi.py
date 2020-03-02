@@ -1,3 +1,4 @@
+import random
 def f():
     rl = []
     c= 0

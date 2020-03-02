@@ -7,4 +7,4 @@ def f(input):
                 return False
             else:
                 return True
-print(f(59))
+print(f(72))
